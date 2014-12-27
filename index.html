@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="generator" content="R package animation 2.3">
+	<title>Animations Using the R Language</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/scianimator.css" />
+  <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/github.min.css">
+
+	<script src="js/jquery-1.4.4.min.js"></script>
+	<script src="js/jquery.scianimator.min.js"></script>
+  <script type="text/javascript" src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+  <script type="text/javascript" src="http://yandex.st/highlightjs/7.3/languages/r.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+<body>
+
+	<div class="scianimator"><div id="lester_fast_pitches" style="display: inline-block;"></div></div>
+	<div class="scianimator" style="width: 480px; text-align: left"><pre><code class="r">## Animations generated in R version 3.1.2 (2014-10-31)
+##   using the package animation
+library(animation)
+library(knitr)
+library(pitchRx)
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(RSQLite)
+library(DBI)
+animateFX(pitch.fast, layer = list(facet_grid(pitch_type ~ 
+    stand, labeller = label_both), theme_bw(), coord_equal()))
+## R version 3.1.2 (2014-10-31)
+## Platform: x86_64-apple-darwin10.8.0 (64-bit)
+## Other packages: animation 2.3, knitr 1.8, pitchRx 1.6, plyr 1.8.1, dplyr 0.3.0.2, ggplot2 1.0.0, RSQLite
+## 1.0.0, DBI 0.3.1</code></pre></div>
+	<script src="js/lester_fast_pitches.js"></script>
+	<div class="scianimator"><div id="lester_slow_pitches" style="display: inline-block;"></div></div>
+	<div class="scianimator" style="width: 480px; text-align: left"><pre><code class="r">## Animations generated in R version 3.1.2 (2014-10-31)
+##   using the package animation
+library(animation)
+library(knitr)
+library(pitchRx)
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(RSQLite)
+library(DBI)
+animateFX(pitch.offspeed, layer = list(facet_grid(pitch_type ~ 
+    stand, labeller = label_both), theme_bw(), coord_equal()))
+## R version 3.1.2 (2014-10-31)
+## Platform: x86_64-apple-darwin10.8.0 (64-bit)
+## Other packages: animation 2.3, knitr 1.8, pitchRx 1.6, plyr 1.8.1, dplyr 0.3.0.2, ggplot2 1.0.0, RSQLite
+## 1.0.0, DBI 0.3.1</code></pre></div>
+	<script src="js/lester_slow_pitches.js"></script>
+<!-- highlight R code -->
+
+</body>
+</html>
